@@ -4,7 +4,7 @@ export class Reserva {
     estado: string;
     fecha_fin?: Date;
     metodo_pago?: string;
-    propiedadId: string;   // ID of the related Propiedad
-    huespedId: string;     // ID of the related Huesped
-    anfitrionId: string;   // ID of the related Anfitrion
+    propiedadId: string;
+    huespedId: string;
+    anfitrionId: string;
 }
